@@ -49,14 +49,14 @@ public class Main{
                 break;
 
                 case "*":
+                case "X":
+                case "x":
                 last = num1*num2;
                 System.out.println(last);
                 break;
 
-                case "X":
-                last = num1*num2;
-                System.out.println(last);
-                break;
+                default:
+                System.out.println("Invalid Please enter again");
 
             }
         }
